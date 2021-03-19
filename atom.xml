@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>奇遇云</title>
+  
+  <subtitle>foresee</subtitle>
+  <link href="https://foresee.gq/atom.xml" rel="self"/>
+  
+  <link href="https://foresee.gq/"/>
+  <updated>2021-03-17T03:05:35.636Z</updated>
+  <id>https://foresee.gq/</id>
+  
+  <author>
+    <name>justice</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>独立的html界面</title>
+    <link href="https://foresee.gq/posts/6a09e784.html"/>
+    <id>https://foresee.gq/posts/6a09e784.html</id>
+    <published>2021-03-16T12:08:44.675Z</published>
+    <updated>2021-03-17T03:05:35.636Z</updated>
+    
+    <content type="html"><![CDATA[<!-- <html>    <body>    <center><iframe src="https://dinoswords.gg/" frameBorder="0" width="1093.6px" scrolling="no" height="700px"></iframe></center>    </body></html> --><!DOCTYPE HTML><html lang="zh-CN"><head>  <meta charset="utf-8">  <link type='text/css' rel="stylesheet"    href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" /><body>  <main class="content">    <div class="container">        <div class="card-content">          <div class="note info">            操作介绍：<br>            开始游戏：首先点击屏幕 <br>            跳跃：注意是“点击屏幕” ！<br>            道具：跳跃后捡到的道具，使用下方对应26字母键盘键<br>            支持手机，电脑，等设备玩耍，点击屏幕开始和跳跃。          </div>          <hr>          <iframe width="100%" height="488px" src="https://dinoswords.gg/" frameborder="no" border="0" scrolling="no"            marginwidth="0" marginheight="0"></iframe>          <!-- <iframe width="100%" height="200px" src="https://api.dlizi.com:555/dinogame/index.html"  frameborder="no" border="0"  scrolling="no" marginwidth="0" marginheight="0" ></iframe> -->        </div>    </div>  </main>  <style>    .youpaiyunlogo {      height: 26px;      display: inline-block;      vertical-align: top;    }  </style>  <script>    POWERMODE.colorful = true; // make power mode colorful    POWERMODE.shake = false; // turn off shake    document.body.addEventListener('input', POWERMODE);  </script></body></html>]]></content>
+    
+    
+    <summary type="html">断网小恐龙魔改版</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ping 请求找不到主机，请检查该名称，然后重试</title>
+    <link href="https://foresee.gq/posts/eadde361.html"/>
+    <id>https://foresee.gq/posts/eadde361.html</id>
+    <published>2021-03-07T03:01:00.000Z</published>
+    <updated>2021-03-07T16:20:41.609Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>开始—-运行—-以管理员输入cmd—-输入 <strong>netsh winsock reset</strong> 确认，<strong>重启</strong></p><p>命令提示符是在操作系统中，提示进行命令输入的一种工作提示符。在不同的操作系统环境下，命令提示符各不相同。</p><p>这个命令作用是重置 Winsock 目录。如果一台机器上的Winsock协议配置有问题的话将会导致网络连接等问题，就需要用netsh winsock reset命令来重置Winsock目录借以恢复网络。这个命令的好处是可以重新初始化网络环境，以解决由于软件冲突、病毒原因造成的参数错误问题。</p><h2 id="输入的影响"><a href="#输入的影响" class="headerlink" title="输入的影响:"></a>输入的影响:</h2><p>这个命令可以重新初始化网络环境，以解决由于软件冲突、病毒原因造成的参数错误问题。当执行完winsock的命令重启计算机后，需要重新配置IP。局域网的话需要DNS选择一下，另外因机而异可能会断网或网速变慢，这个就需要继续再进行解决了。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/img/post/ping.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;解决方法：&quot;&gt;&lt;a href=&quot;#解决方法：&quot; class=&quot;headerlink&quot; title=&quot;解决方法：&quot;&gt;&lt;/a&gt;解决方法：&lt;/h2&gt;&lt;p&gt;开始—-运行—-以管理员输入cmd—-输入 &lt;strong&gt;netsh winsock reset&lt;/strong&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenSSL SSL_read: Connection was reset, errno 10054</title>
+    <link href="https://foresee.gq/posts/1cadd2b2.html"/>
+    <id>https://foresee.gq/posts/1cadd2b2.html</id>
+    <published>2021-03-05T12:30:48.000Z</published>
+    <updated>2021-03-05T12:30:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用git克隆github上的项目失败"><a href="#使用git克隆github上的项目失败" class="headerlink" title="使用git克隆github上的项目失败"></a>使用git克隆github上的项目失败</h2><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/img/post/20210305203156.png"></p><h2 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h2><p>由于Http协议错误，当 pull 或者 clone 的时候，github被伟大的墙屏蔽所致。</p><ol><li>首先，造成这个错误很有可能是网络不稳定，连接超时导致的，<br>如果再次尝试后依然报错，可以执行下面的命令</li><li>这是服务器的SSL证书没有经过第三方机构的签署，所以报错。</li></ol><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><ol><li><blockquote><p>git config –global http.sslVerify “false”<br>修改设置，解除ssl验证(有两个-)</p></blockquote></li><li><p>参考无法连接github，修改host映射</p></li><li><p>更新DNS缓存  </p></li></ol><p>Mac用户：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo killall -HUP mDNSResponder</span><br><span class="line">sudo dscacheutil -flushcache</span><br></pre></td></tr></table></figure><p>Windows用户：cmd命令窗口执行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;使用git克隆github上的项目失败&quot;&gt;&lt;a href=&quot;#使用git克隆github上的项目失败&quot; class=&quot;headerlink&quot; title=&quot;使用git克隆github上的项目失败&quot;&gt;&lt;/a&gt;使用git克隆github上的项目失败&lt;/h2&gt;&lt;p&gt;&lt;i</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    <category term="git clone" scheme="https://foresee.gq/categories/git/git-clone/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改git，svn远程版本控制的账号密码</title>
+    <link href="https://foresee.gq/posts/4d3779ec.html"/>
+    <id>https://foresee.gq/posts/4d3779ec.html</id>
+    <published>2021-03-05T07:21:17.000Z</published>
+    <updated>2021-03-05T07:21:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有时候版本的账号密码改变，拉取代码时密码错误又不让重新输入，导致无法拉取</p><ol><li>在windows环境中需要进入电脑上控制面板</li><li>进入凭据管理器之后，选择其中的“Windows凭据”，点击进入，如图所示。</li><li>可以直接删除普通凭据里的git或svn账号密码，删除后重新拉取即可重输入账号密码</li></ol><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/img/post/20210305152339.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;有时候版本的账号密码改变，拉取代码时密码错误又不让重新输入，导致无法拉取&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在windows环境中需要进入电脑上控制面板&lt;/li&gt;
+&lt;li&gt;进入凭据管理器之后，选择其中的“Windows凭据”，点击进入，如图所示。&lt;/li&gt;
+&lt;li&gt;可以直接删除普通</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://foresee.gq/posts/d87f7e0c.html"/>
+    <id>https://foresee.gq/posts/d87f7e0c.html</id>
+    <published>2021-03-03T15:13:00.000Z</published>
+    <updated>2021-03-03T16:18:43.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="春秋"><a href="#春秋" class="headerlink" title="春秋"></a>春秋</h1><h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>据一些文学著作记述，至迟自西周起，就有太史记载国家大事。《春秋》是由鲁国史官记录大量当时该国诸侯、大夫、国人等失礼非礼之事；鲁国史官也会收集其他诸侯国公侯大夫等失礼非礼之事，会记录诸侯国公侯间大夫等间书信内容，比如晋叔向与郑国子产关于铸刑书的书信 [2]  ，其中记录了齐国史官因为保持真实记录而被杀掉的事件 [3]  等等。 </p><p>在每一季的开始，一般要写“春”到“冬”四季的季节。据说古时历法先有春秋，后分冬夏二时，因此把国史记载叫做《春秋》，这可能是“春秋”作为史书名的来由。现存《春秋》，从鲁隐公记述到鲁哀公，历十二代君主，计二百四十四年（依《公羊传》和《谷梁传》载至哀公十四年止，为二百四十二年，《左传》多二年），它基本上是鲁国史书的原文。</p><p>相传《春秋》之书出于孔子之手，旧时有“文王拘而演周易、仲尼厄而作春秋”之说。但后世亦有不同说法，清人袁谷芳《春秋书法论》说：《春秋》者，鲁史也。鲁史氏书之，孔子录而藏之，以传信于后世者也。石韫玉《独学庐初稿·春秋论》也说：《春秋》者，鲁史之旧文也。《春秋》共十二公之事，历二百四十年之久，秉笔而书者必更数十人。此数十人者，家自为师，人自为学，则其书法，岂能尽同？虽然春秋之作者有争议，但其经过孔子之手修而改之，则无大异。事实上，春秋作为一鲁国的史书，其作用早已超出史书范围，春秋用词遣句“字字针砭”成为独特的文风，被称为春秋笔法，为历代文代史家奉为经典。</p><p>《春秋》所记，是二百四十多年的春秋各国大事，现所存全文，不过一万六千多字，但据曹魏时的张晏和晚唐时人徐彦引《春秋说》，都说是一万八千字（张说见《史记·太史公自序·集解》引，徐说见《公羊传·昭公十二年疏》引），可见《春秋》原文，从三国以后脱露了一千多字。很多大事遗漏记。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;春秋&quot;&gt;&lt;a href=&quot;#春秋&quot; class=&quot;headerlink&quot; title=&quot;春秋&quot;&gt;&lt;/a&gt;春秋&lt;/h1&gt;&lt;h2 id=&quot;作品简介&quot;&gt;&lt;a href=&quot;#作品简介&quot; class=&quot;headerlink&quot; title=&quot;作品简介&quot;&gt;&lt;/a&gt;作品简介&lt;/h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git pull遇到报错：Please commit your changes or stash them before you merge...</title>
+    <link href="https://foresee.gq/posts/4f5d3c44.html"/>
+    <id>https://foresee.gq/posts/4f5d3c44.html</id>
+    <published>2021-02-28T04:11:00.000Z</published>
+    <updated>2021-02-28T04:11:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="场景："><a href="#场景：" class="headerlink" title="场景："></a>场景：</h2><p>在手机上提交代码到远程仓库之后，再用自己的笔记本重新拉取远程的更新出现以上错误。我的笔记本原本也在进行这个项目的开发。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228123052.png"></p><blockquote><p>Please commit your changes or stash them before you merge.<br>error: Your local changes to the following files would be overwritten by merge:</p></blockquote><p>意思是我现在的代码会将远程仓库的代码覆盖掉，这个时候当然要以最新的代码为准，不能将远程仓库的代码覆盖啦。  </p><p>查询git 的相关文档之后，有如下解决办法：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PS:我用这个结果成功了  </span><br><span class="line">git reset  --hard    &#x2F;&#x2F;将当前的工作目录重置  </span><br><span class="line">git pull origin master &#x2F;&#x2F;拉取远程更新到本地</span><br></pre></td></tr></table></figure><p>另外一种解决办法是：<br>保留当前笔记本上写的内容，并将远程仓库的内容更新到本地。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git stash    &#x2F;&#x2F;save uncommitted changes。会将本地所有未提交的修改暂存起来，用于后续恢复。  </span><br><span class="line">git pull origin master  </span><br><span class="line">git stash pop   &#x2F;&#x2F;apply last stash and remove it from the list</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;场景：&quot;&gt;&lt;a href=&quot;#场景：&quot; class=&quot;headerlink&quot; title=&quot;场景：&quot;&gt;&lt;/a&gt;场景：&lt;/h2&gt;&lt;p&gt;在手机上提交代码到远程仓库之后，再用自己的笔记本重新拉取远程的更新出现以上错误。我的笔记本原本也在进行这个项目的开发。&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="git pull" scheme="https://foresee.gq/tags/git-pull/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决github 打开、拉取、推送速度慢的问题</title>
+    <link href="https://foresee.gq/posts/1d24269c.html"/>
+    <id>https://foresee.gq/posts/1d24269c.html</id>
+    <published>2021-02-27T16:08:00.000Z</published>
+    <updated>2021-03-07T03:08:11.714Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="打开ipaddress-com"><a href="#打开ipaddress-com" class="headerlink" title="打开ipaddress.com"></a>打开ipaddress.com</h2><p>查询如下两个域名，并分别记录下其对应的ip：<br>1、github.com<br>2、github.global.ssl.fastly.net </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001057.png"></p><h2 id="更新host文件"><a href="#更新host文件" class="headerlink" title="更新host文件"></a>更新host文件</h2><p>打开：<strong>C:\Windows\System32\drivers\etc对hosts文件修改</strong><br>192.30.253.112 github.com<br>151.101.185.194 github.global.ssl.fastly.net<br>(github.global.ssl.fastly.net：这个会出现OpenSSL SSL_read: Connection was reset, errno 10054)</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001208.png"></p><h2 id="清理下DNS，再试一下。"><a href="#清理下DNS，再试一下。" class="headerlink" title="清理下DNS，再试一下。"></a>清理下DNS，再试一下。</h2><p>PS：我赶脚清理两次才舒服  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001459.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"></span><br><span class="line">185.199.111.153               github.io</span><br><span class="line">185.199.108.154               github.githubassets.com</span><br><span class="line">199.232.68.133                camo.githubusercontent.com</span><br><span class="line">199.232.68.133                github.map.fastly.net</span><br><span class="line">199.232.69.194                github.global.ssl.fastly.net</span><br><span class="line">185.199.108.153               github.io</span><br><span class="line">140.82.113.4                  github.com</span><br><span class="line">140.82.114.5                  api.github.com</span><br><span class="line">199.232.68.133                raw.githubusercontent.com</span><br><span class="line">199.232.68.133                user-images.githubusercontent.com</span><br><span class="line">199.232.68.133                favicons.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars5.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars4.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars3.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars2.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars1.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars0.githubusercontent.com</span><br><span class="line">140.82.114.9                  codeload.github.com</span><br><span class="line">52.217.83.84                  github-cloud.s3.amazonaws.com</span><br><span class="line">52.216.229.155                github-com.s3.amazonaws.com</span><br><span class="line">52.216.30.60                  github-production-release-asset-2e65be.s3.amazonaws.com</span><br><span class="line">52.216.17.0                   github-production-user-asset-6210df.s3.amazonaws.com</span><br><span class="line">52.216.236.43                 github-production-repository-file-5c1aeb.s3.amazonaws.com</span><br><span class="line"></span><br><span class="line"># GitHub End</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;打开ipaddress-com&quot;&gt;&lt;a href=&quot;#打开ipaddress-com&quot; class=&quot;headerlink&quot; title=&quot;打开ipaddress.com&quot;&gt;&lt;/a&gt;打开ipaddress.com&lt;/h2&gt;&lt;p&gt;查询如下两个域名，并分别记录下其对应</summary>
+      
+    
+    
+    
+    <category term="github" scheme="https://foresee.gq/categories/github/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git push origin与git push -u origin master的区别</title>
+    <link href="https://foresee.gq/posts/dfcda24f.html"/>
+    <id>https://foresee.gq/posts/dfcda24f.html</id>
+    <published>2021-02-27T15:36:00.000Z</published>
+    <updated>2021-02-28T06:04:22.771Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a>git push</h1><p>git push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿。</p><blockquote><p>git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</p></blockquote><p>注意：这里的:前后是必须没有空格的。</p><p><strong>注意</strong>，分支推送顺序的写法是&lt;来源地&gt;:&lt;目的地&gt;，所以 <strong>git pull</strong> 是&lt;远程分支&gt;:&lt;本地分支&gt;，而 <strong>git push</strong> 是&lt;本地分支&gt;:&lt;远程分支&gt;。</p><p>如果省略远程分支名，则表示将本地分支推送与之存在”追踪关系”的远程分支（通常两者同名），如果该远程分支不存在，则会被新建。</p><h2 id="git-push-origin-master"><a href="#git-push-origin-master" class="headerlink" title="git push origin master"></a>git push origin master</h2><p>上面命令表示，将本地的master分支推送到origin主机的master分支。如果后者不存在，则会被新建。</p><p>如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git push origin :master</span><br><span class="line"># 等同于</span><br><span class="line">git push origin --delete master</span><br></pre></td></tr></table></figure><p>上面命令表示删除origin主机的master分支。</p><p>如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。</p><h2 id="git-push-origin"><a href="#git-push-origin" class="headerlink" title="git push origin"></a>git push origin</h2><p>上面命令表示，将当前分支推送到origin主机的对应分支。 </p><p>如果当前分支只有一个追踪分支，那么主机名都可以省略。 </p><h2 id="git-push-1"><a href="#git-push-1" class="headerlink" title="git push"></a>git push</h2><p>如果当前分支与多个主机存在追踪关系，那么这个时候-u选项会指定一个默认主机，这样后面就可以不加任何参数使用git push。</p><h2 id="git-push-u-origin-master"><a href="#git-push-u-origin-master" class="headerlink" title="git push -u origin master"></a>git push -u origin master</h2><p>上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用 <strong>git push</strong> 了。</p><p><strong>不带任何参数的git push，默认只推送当前分支</strong>，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;git-push&quot;&gt;&lt;a href=&quot;#git-push&quot; class=&quot;headerlink&quot; title=&quot;git push&quot;&gt;&lt;/a&gt;git push&lt;/h1&gt;&lt;p&gt;git push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    
+    <category term="git push" scheme="https://foresee.gq/tags/git-push/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git命令 git push --set-upstream origin master</title>
+    <link href="https://foresee.gq/posts/c62fbf8f.html"/>
+    <id>https://foresee.gq/posts/c62fbf8f.html</id>
+    <published>2021-02-27T14:44:08.000Z</published>
+    <updated>2021-02-27T14:44:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227224547.png"></p><h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>1.拉取远程代码 </p><blockquote><p>git pull origin master</p></blockquote><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227225029.png"></p><p>2.最后执行git命令 </p><blockquote><p>git push –set-upstream origin master</p></blockquote><p><strong>记得一定要先pull下来,还要先把 <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227224904.png">  <code>.github</code> 放到文件夹外面</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h2&gt;&lt;p&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-src=&quot;https://c</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    <category term="git push" scheme="https://foresee.gq/categories/git/git-push/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git命令常用</title>
+    <link href="https://foresee.gq/posts/ed9fab05.html"/>
+    <id>https://foresee.gq/posts/ed9fab05.html</id>
+    <published>2021-02-27T14:38:04.000Z</published>
+    <updated>2021-02-27T14:38:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="pull-强制覆盖本地文件"><a href="#pull-强制覆盖本地文件" class="headerlink" title="pull 强制覆盖本地文件"></a>pull 强制覆盖本地文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all  </span><br><span class="line">git reset --hard origin&#x2F;master</span><br></pre></td></tr></table></figure><h2 id="push-强制覆盖远程文件"><a href="#push-强制覆盖远程文件" class="headerlink" title="push 强制覆盖远程文件"></a>push 强制覆盖远程文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -f origin master</span><br></pre></td></tr></table></figure><h2 id="配置自动换行"><a href="#配置自动换行" class="headerlink" title="配置自动换行"></a>配置自动换行</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global core.autocrlf input # 提交时自动将换行符转成lf</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;pull-强制覆盖本地文件&quot;&gt;&lt;a href=&quot;#pull-强制覆盖本地文件&quot; class=&quot;headerlink&quot; title=&quot;pull 强制覆盖本地文件&quot;&gt;&lt;/a&gt;pull 强制覆盖本地文件&lt;/h2&gt;&lt;figure class=&quot;highlight plai</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git取消本地代理配置</title>
+    <link href="https://foresee.gq/posts/8216b487.html"/>
+    <id>https://foresee.gq/posts/8216b487.html</id>
+    <published>2021-02-27T13:58:50.000Z</published>
+    <updated>2021-02-27T13:58:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227220104.png"></p><p>‘Failed to connect to 127.0.0.1 port 1080: Connection refused’</p><h2 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h2><p>我找了大半天。原来是以为之前 git push 时出现 <code>Timed out</code> ,我就用了</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --local http.proxy 127.0.0.1 port 1080</span><br></pre></td></tr></table></figure><p>结果找半天，把所有的git代理都删掉，还是没找到原因所在，最后偶然的回忆到 <strong>local</strong> 字样，最终在<img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227220846.png">找到这个代理配置。  </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227215735.png"></p><h2 id="git代理设置"><a href="#git代理设置" class="headerlink" title="git代理设置"></a>git代理设置</h2><p>设置代理：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy &#39;http:&#x2F;&#x2F;127.0.0.1:1080&#39;</span><br><span class="line">git config --global https.proxy &#39;http:&#x2F;&#x2F;127.0.0.1:1080&#39;</span><br><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:1080&#39;</span><br><span class="line">git config --global https.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:1080&#39; </span><br></pre></td></tr></table></figure><p>或者：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --local http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:1080&#39;</span><br><span class="line">git config --local https.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:1080&#39;</span><br></pre></td></tr></table></figure><p>查看设置的代理：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global --list</span><br></pre></td></tr></table></figure><p>git clone 的时候会走设置的代理。</p><p>也可以这么clone：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -c http.proxy&#x3D;http:&#x2F;&#x2F;127.0.0.1:1080 https:&#x2F;&#x2F;github.com&#x2F;xxxxx&#x2F;xxxxx.git</span><br></pre></td></tr></table></figure><p>取消代理：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h2&gt;&lt;p&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-src=&quot;https://c</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    <category term="git config" scheme="https://foresee.gq/categories/git/git-config/"/>
+    
+    
+    <category term="端口" scheme="https://foresee.gq/tags/%E7%AB%AF%E5%8F%A3/"/>
+    
+    <category term="git代理" scheme="https://foresee.gq/tags/git%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决warning LF will be replaced by CRLF in方法</title>
+    <link href="https://foresee.gq/posts/358cbf14.html"/>
+    <id>https://foresee.gq/posts/358cbf14.html</id>
+    <published>2021-02-27T13:23:05.000Z</published>
+    <updated>2021-02-27T13:23:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h2><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227213202.png"></p><h2 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h2><p>在windows下面提交和linux提交的换行符不一样</p><p>windows中的换行符为 CRLF </p><p>而在linux下的换行符为LF，</p><p>在windows下直接回车就会出现这个提示,修改的办法是把 core.autocrlf 设置成false</p><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><blockquote><p>git config –global core.autocrlf false</p></blockquote><h2 id="解析："><a href="#解析：" class="headerlink" title="解析："></a>解析：</h2><p>此命令会有三个输出，“true”，“false”或者“input”</p><ul><li>为true时，Git会将你add的所有文件视为文本问价你，将结尾的CRLF转换为LF，而checkout时会再将文件的LF格式转为CRLF格式。</li><li>为false时，line endings不做任何改变，文本文件保持其原来的样子。</li><li>为input时，add时Git会把CRLF转换为LF，而check时仍旧为LF，所以Windows操作系统不建议设置此值。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h2&gt;&lt;p&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-src=&quot;https://c</summary>
+      
+    
+    
+    
+    <category term="问题" scheme="https://foresee.gq/categories/%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="git" scheme="https://foresee.gq/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>! [rejected] master -&gt; master (fetch first)</title>
+    <link href="https://foresee.gq/posts/82f55462.html"/>
+    <id>https://foresee.gq/posts/82f55462.html</id>
+    <published>2021-02-27T09:08:00.000Z</published>
+    <updated>2021-02-28T06:02:47.902Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天在做git push时出现了如下错误：</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227171054.png"></p><pre><code>! [rejected] master -&gt; master (fetch first)</code></pre><h2 id="分析原因"><a href="#分析原因" class="headerlink" title="分析原因:"></a>分析原因:</h2><p>基本上可以确定是因为github上的远程库与本地库版本不一致（我对github上的文件做了编辑操作，且未更新到本地，当然也可能还有其他原因…），通过一番研究，找到了两种解决方案：</p><h2 id="温柔型方案："><a href="#温柔型方案：" class="headerlink" title="温柔型方案："></a>温柔型方案：</h2><p>通过 <code>git pull</code> 先将本地库更新到与远程库一致的版本，但要注意本地库后来做的修改可能被覆盖，最好使用git fetch(不会自动合并)，查看更新情况再有选择合并，或者先将本地库修改过的文件备份，git pull后再重新修改；  </p><p>再运行git push即可成功。</p><h2 id="暴力型方案："><a href="#暴力型方案：" class="headerlink" title="暴力型方案："></a>暴力型方案：</h2><p>git提供了一种强制上传的方式：<code>git push -f</code> ，它会忽略版本不一致等问题，强制将本地库上传的远程库，但是一定要谨慎使用，因为-f会用本地库覆盖掉远程库，如果远程库上有重要更新，或者有其他同伴做的修改，也都会被覆盖，所以一定要在确定无严重后果的前提下使用此操作。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227171209.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天在做git push时出现了如下错误：&lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblo</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="git push" scheme="https://foresee.gq/tags/git-push/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> Failed to connect to github.com port 443: Timed out</title>
+    <link href="https://foresee.gq/posts/714007d.html"/>
+    <id>https://foresee.gq/posts/714007d.html</id>
+    <published>2021-02-27T07:49:00.000Z</published>
+    <updated>2021-02-27T11:56:17.952Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>今天在使用git向github远程仓库push自己的代码时  </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227155148.png">  </p><p>这边我发现我的网络是没有问题，且github也能正常访问。</p><p>网上解释是因为自己的电脑是使用了代理导致的,是继续顺藤摸瓜，找到了Internet与网络的设置。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227155453.png"></p><p>果然，上图设置中有勾选了代理服务器（图片中是我重新设置过后的，不要打勾）。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>根据上面的原因分析，那么解决方式就很简单了：取消勾选代理服务器，使用自动检测设置。</p><p>设置完成，再次通过git来push代码。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227162000.png"></p><p>ok。问题解决！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;今天在使用git向github远程仓库push自己的代码时  &lt;/p&gt;
+&lt;p&gt;&lt;img src= &quot;/myresource/myimg/lo</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git push 出现 error failed to push some refs to...错误</title>
+    <link href="https://foresee.gq/posts/9edb54d8.html"/>
+    <id>https://foresee.gq/posts/9edb54d8.html</id>
+    <published>2021-02-26T14:52:02.000Z</published>
+    <updated>2021-02-26T14:52:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在用git push -u origin master 命令把本地资源提交到远程仓库时，可能会出现这个错误：<br><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210226225400.png">  </p><p>原因：<br>远程repo有 <code>README.md</code> 文件，本地却没有</p><p>解决方法：<br>1.先拉下来，会自动合并的（不用操心）   </p><blockquote><p>git pull –rebase origin master    把远程 <code>README.md</code> 文件pull到本地     </p></blockquote><p>2.当自己的本地文件夹出现一个README文件，就说明成功了</p><p>3.然后再上传   </p><blockquote><p>git push -u origin master   重新提交</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在用git push -u origin master 命令把本地资源提交到远程仓库时，可能会出现这个错误：&lt;br&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-src=&quot;https://cdn.jsdelivr.n</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://foresee.gq/categories/git/"/>
+    
+    <category term="git push" scheme="https://foresee.gq/categories/git/git-push/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>端口占用</title>
+    <link href="https://foresee.gq/posts/7456ab46.html"/>
+    <id>https://foresee.gq/posts/7456ab46.html</id>
+    <published>2021-02-26T14:12:10.000Z</published>
+    <updated>2021-02-26T14:12:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="error："><a href="#error：" class="headerlink" title="error："></a>error：</h1><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210226220842.png"></p><p>‘Error: listen EADDRINUSE: address already in use :::4000’</p><p>错误原因：其实是4000端口被其他应用程序占用了，只要找到占用该端口的应用程序，杀死它，就🆗了。</p><blockquote><p>netstat -o -n -a | findstr :4000  </p></blockquote><blockquote><p>taskkill /F /PID 14364  </p></blockquote><p>注：<code>14364</code> 换成你的占用4000端口的程序PID  </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210226223023.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;error：&quot;&gt;&lt;a href=&quot;#error：&quot; class=&quot;headerlink&quot; title=&quot;error：&quot;&gt;&lt;/a&gt;error：&lt;/h1&gt;&lt;p&gt;&lt;img src= &quot;/myresource/myimg/loading.gif&quot; data-lazy-sr</summary>
+      
+    
+    
+    
+    <category term="node" scheme="https://foresee.gq/categories/node/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="端口" scheme="https://foresee.gq/tags/%E7%AB%AF%E5%8F%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cannot find module node-sass</title>
+    <link href="https://foresee.gq/posts/11cb6d12.html"/>
+    <id>https://foresee.gq/posts/11cb6d12.html</id>
+    <published>2021-02-20T17:03:52.000Z</published>
+    <updated>2021-02-20T17:03:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Error-Cannot-find-module-‘node-sass’"><a href="#Error-Cannot-find-module-‘node-sass’" class="headerlink" title="Error: Cannot find module ‘node-sass’"></a>Error: Cannot find module ‘node-sass’</h1><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210220233628.png"></p><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><p>后来搜索出<code>cnpm install node-sass --save</code><br>这个命令可能有用，但是要事先安装<code>cnpm</code>。所以npm i cnpm时又是一通报错。</p><p>所以用npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a> ，从淘宝镜像那下载，然后cnpm下载成功。</p><p>最后输入<strong>cnpm install node-sass –save</strong>。<br><code>npm run dev</code> 运行成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Error-Cannot-find-module-‘node-sass’&quot;&gt;&lt;a href=&quot;#Error-Cannot-find-module-‘node-sass’&quot; class=&quot;headerlink&quot; title=&quot;Error: Cannot find m</summary>
+      
+    
+    
+    
+    <category term="node" scheme="https://foresee.gq/categories/node/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="npm" scheme="https://foresee.gq/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 教程</title>
+    <link href="https://foresee.gq/posts/84c9aef3.html"/>
+    <id>https://foresee.gq/posts/84c9aef3.html</id>
+    <published>2021-02-10T16:18:46.000Z</published>
+    <updated>2021-02-10T16:18:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h2 id="1-标题："><a href="#1-标题：" class="headerlink" title="1.标题："></a>1.标题：</h2><p>使用 <strong>#</strong> 号标记</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure><h2 id="2-段落"><a href="#2-段落" class="headerlink" title="2.段落"></a>2.段落</h2><ol><li>Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。  </li></ol><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211002408.png">  </p><ol start="2"><li>也可以在段落后面使用一个空行来表示重新开始一个段落。  </li></ol><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211002442.png"> </p><h2 id="3-字体"><a href="#3-字体" class="headerlink" title="3.字体"></a>3.字体</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211002700.png"></p><h2 id="4-分隔线"><a href="#4-分隔线" class="headerlink" title="4.分隔线"></a>4.分隔线</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">----------</span><br></pre></td></tr></table></figure><h2 id="5-删除线"><a href="#5-删除线" class="headerlink" title="5.删除线"></a>5.删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211002832.png"></p><h2 id="6-下划线"><a href="#6-下划线" class="headerlink" title="6.下划线"></a>6.下划线</h2><p>下划线可以通过 HTML 的 <u> 标签来实现：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;&#x2F;u&gt;</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211002953.png"></p><h2 id="7-脚注"><a href="#7-脚注" class="headerlink" title="7.脚注"></a>7.脚注</h2><p>脚注是对文本的补充说明。</p><p>Markdown 脚注的格式如下:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[^要注明的文本]</span><br><span class="line">以下实例演示了脚注的用法：</span><br><span class="line"></span><br><span class="line">创建脚注格式类似这样 [^RUNOOB]。</span><br><span class="line"></span><br><span class="line">[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</span><br></pre></td></tr></table></figure><h2 id="8-列表"><a href="#8-列表" class="headerlink" title="8.列表"></a>8.列表</h2><p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003241.png"></p><p>有序列表使用数字并加上 . 号来表示，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003325.png"></p><p>列表嵌套<br>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003406.png"></p><h2 id="9-代码区块"><a href="#9-代码区块" class="headerlink" title="9.代码区块"></a>9.代码区块</h2><p>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt; 菜鸟教程</span><br><span class="line">&gt; 学的不仅是技术更是梦想</span><br></pre></td></tr></table></figure><p>另外区块是可以嵌套的，一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套，以此类推：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003740.png"></p><p>区块中使用列表<br>区块中使用列表实例如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003814.png"></p><p>列表中使用区块<br>如果要在列表项目内放进区块，那么就需要在 &gt; 前添加四个空格的缩进。</p><p>列表中使用区块实例如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 菜鸟教程</span><br><span class="line">    &gt; 学的不仅是技术更是梦想</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210211003836.png"></p><h2 id="10-表格"><a href="#10-表格" class="headerlink" title="10.表格"></a>10.表格</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 第一行自带加粗效果，</span><br><span class="line">&#x2F;&#x2F; 第二行分割标题和内容，添加冒号代表对齐方式</span><br><span class="line">&#x2F;&#x2F; ctrl T插入表格</span><br><span class="line">| 姓名 | 性别 | 年龄 |</span><br><span class="line">|:----|:----:|----:|</span><br><span class="line">| 张三 | 男 | 18 |</span><br><span class="line">| 李四 | 男 | 28 |</span><br></pre></td></tr></table></figure><table><thead><tr><th align="left">姓名</th><th align="center">性别</th><th align="right">年龄</th></tr></thead><tbody><tr><td align="left">张三</td><td align="center">男</td><td align="right">18</td></tr><tr><td align="left">李四</td><td align="center">男</td><td align="right">28</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;markdown语法&quot;&gt;&lt;a href=&quot;#markdown语法&quot; class=&quot;headerlink&quot; title=&quot;markdown语法&quot;&gt;&lt;/a&gt;markdown语法&lt;/h1&gt;&lt;h2 id=&quot;1-标题：&quot;&gt;&lt;a href=&quot;#1-标题：&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    <category term="markdown" scheme="https://foresee.gq/categories/markdown/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql时区报错</title>
+    <link href="https://foresee.gq/posts/2f6dc0eb.html"/>
+    <id>https://foresee.gq/posts/2f6dc0eb.html</id>
+    <published>2021-02-10T14:38:00.000Z</published>
+    <updated>2021-02-10T14:38:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA中配置连接MySql报错"><a href="#IDEA中配置连接MySql报错" class="headerlink" title="IDEA中配置连接MySql报错"></a>IDEA中配置连接MySql报错</h1><p>在Intellij IDEA中通过Database连接Mysql报错：Server returns invalid timezone. Go to ‘Advanced’ tab and set ‘serverTimezone’ property manually.  </p><p>原因是MySQL驱动中默认时区是UTC，与本地时间（中国）相差八个小时，所以链接不上，</p><h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>点开最右侧 <strong>Advanced</strong>，找到 <strong>serverTimezone</strong> ，在右侧value处填写 <strong>Asia/Shanghai</strong> ，保存即可！</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210210224837.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA中配置连接MySql报错&quot;&gt;&lt;a href=&quot;#IDEA中配置连接MySql报错&quot; class=&quot;headerlink&quot; title=&quot;IDEA中配置连接MySql报错&quot;&gt;&lt;/a&gt;IDEA中配置连接MySql报错&lt;/h1&gt;&lt;p&gt;在Intellij IDEA</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://foresee.gq/categories/mysql/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>windows版mysql5.1移动data文件</title>
+    <link href="https://foresee.gq/posts/96d57cb4.html"/>
+    <id>https://foresee.gq/posts/96d57cb4.html</id>
+    <published>2021-02-06T07:56:05.000Z</published>
+    <updated>2021-02-06T07:56:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h1><p> 从C:\ProgramData\MySQL\MySQL Server 5.1\Data移动到E:\MySQL\MySQL Server 5.1\data目录下  </p><h2 id="mysql-data目录"><a href="#mysql-data目录" class="headerlink" title="mysql data目录"></a>mysql data目录</h2><p> 查看mysql文件目录my.ini文件，可以找到类似于<strong>datadir</strong>=”C:/ProgramData/MySQL/MySQL Server 5.1/Data”的字段<br> <strong>注意：ProgramData文件夹是隐藏的！！！</strong></p><p> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/13fa72a337e699b62649609204e3e81a.png"></p><h2 id="1-停止mysql"><a href="#1-停止mysql" class="headerlink" title="1.停止mysql"></a>1.停止mysql</h2><p> 在命令窗口中输入并运行：net stop mysql</p><p> Windows net start mysql 启动MySQL服务报错<strong>发生系统错误 5</strong> 解决方法</p><p> <strong><code>cmd</code>下运行<code>net start mysql</code>启动<code>MySQL</code>服务：<code>提示发生系统错误 5。拒绝访问。</code></strong><br> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/e673460364826b1e450d0c807eab9b65.png"></p><h3 id="cmd管理员模式运行可以启动MySQL服务"><a href="#cmd管理员模式运行可以启动MySQL服务" class="headerlink" title="cmd管理员模式运行可以启动MySQL服务"></a><strong><code>cmd</code>管理员模式运行可以启动<code>MySQL</code>服务</strong></h3><p> 目录 C:\Windows\System32 -&gt; 找到 cmd.exe<br> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/29bd9a04cd0403c81ae7511287c8907c.png"></p><p> 右击属性 -&gt; 以管理员身份运行    </p><p> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/322a61690195e0a465af9daab6c71ac1.png">    </p><h2 id="2-复制"><a href="#2-复制" class="headerlink" title="2.复制"></a>2.复制</h2><p> 把” C:/ProgramData/MySQL/MySQL Server 5.1/Data/“里的Data文件夹剪切到目的地。<br> 我把它放到了”D:\PHP\MySQL\MySQL Server 5.1”目录下（跟mysql放到了一起），并且把目录”C:\Documents and Settings\All Users\Application Data\MySQL\MySQL Server 5.1\”删除掉。</p><h2 id="3-修改my-ini文件"><a href="#3-修改my-ini文件" class="headerlink" title="3.修改my.ini文件"></a>3.修改my.ini文件</h2><p> 把datadir改成  datadir=”E:\MySQL\MySQL Server 5.1\data”</p><h2 id="4-启动mysql"><a href="#4-启动mysql" class="headerlink" title="4.启动mysql"></a>4.启动mysql</h2><p> 在命令窗口中输入并运行：net start mysql  即可；</p><h2 id="5-修改完毕"><a href="#5-修改完毕" class="headerlink" title="5.修改完毕"></a>5.修改完毕</h2><p> 以后就可以把相应的数据库附加对象拷贝到里面来。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;移动&quot;&gt;&lt;a href=&quot;#移动&quot; class=&quot;headerlink&quot; title=&quot;移动&quot;&gt;&lt;/a&gt;移动&lt;/h1&gt;&lt;p&gt; 从C:\ProgramData\MySQL\MySQL Server 5.1\Data移动到E:\MySQL\MySQL Server 5</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://foresee.gq/categories/mysql/"/>
+    
+    
+    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+</feed>

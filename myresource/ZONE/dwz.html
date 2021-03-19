@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="referrer" content="never" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="description" content="本网页提供新浪短链和腾讯短链服务">
+  <meta name="keywords" content="网址压缩，新浪短链，腾讯短链，t.cn短链接，url.cn短链接，网址压缩，批量网址压缩" />
+  <title>奇遇云</title>
+  <link rel="shortcut icon" href="/myresource/myimg/favicon.ico" />
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
+  <style type="text/css">
+    html,
+    table {
+      font-size: 15px;
+    }
+  </style>
+  <script type="text/javascript">
+    function zanzhu() {
+      $.alert({
+        theme: 'Modern',
+        boxWidth: '800px',
+        useBootstrap: false,
+        backgroundDismiss: true,
+        title: '捐助我们',
+        content: '' +
+          '<form action="" class="formName">' +
+          '<img style="width:1000px;" src="/myresource/myimg/wxpay.jpg" />' +
+          '</form>',
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="https://foresee.gq/" style="text-decoration: none;">网站首页</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+        aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav ml-auto">
+          <li class="nav-item "><a style="text-decoration: none;" class="nav-item nav-link px-3" target="_blank"
+              title="justice" href="#">justice</a></li>
+          <li class="nav-item "><a style="text-decoration: none;" class="nav-item nav-link px-3" title="捐助我们"
+              href="javascript:void(0);" onclick="zanzhu();">捐助我们</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron" style="text-align:center;">
+    <h1>新浪短链/腾讯短链在线压缩网址</h1>
+  </div>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <textarea id="int_urls" class="form-control" placeholder="这里粘贴原始网址，一行一网址！"
+          style="width:100%; height: 150px; white-space:nowrap; overflow-x:scroll; overflow-y:hidden;"
+          wrap="off"></textarea>
+      </div>
+      <div class="form-row">
+        <div class="col form-check form-check-inline">
+          <label for="option-one" class="form-check-label">
+            <input id="option-one" class="form-check-input" type="radio" name="optionsRadios" value="1"
+              checked="">新浪短链(t.cn)
+          </label>
+        </div>
+        <div class="col form-check form-check-inline">
+          <label for="option-two" class="form-check-label">
+            <input id="option-two" class="form-check-input" type="radio" name="optionsRadios" value="2">腾讯短链(url.cn)
+          </label>
+        </div>
+        <div class="col form-check form-check-inline">
+          <label for="option-three" class="form-check-label">
+            <input id="option-three" class="form-check-input" type="radio" name="optionsRadios"
+              value="3">URL.CY短链(dwz.cy)
+          </label>
+        </div>
+      </div>
+      <br />
+      <div class="form-group">
+        <textarea id="out_urls" class="form-control" placeholder="这里显示压缩后的短链接，一行一网址！与上面对应，如果压缩网址失败会空一行！"
+          style="width:100%; height: 150px; white-space:nowrap; overflow-x:scroll; overflow-y:hidden;"
+          wrap="off"></textarea>
+      </div>
+      <button type="button" id="sub" class="btn btn-primary">压缩网址</button>
+    </form>
+  </div>
+
+  <script>
+    $(function () {
+      $("#sub").click(function () {
+        doit(get_urls(), $('input:radio:checked').val())
+      });
+
+      function doit(urls, method) {
+        $("#sub").attr("disabled", true);
+        if (urls.length > 0) {
+
+          if (method == '1')
+            tcn(urls.pop(), function (surl) { write_url(surl); doit(urls, method) })
+          if (method == '2')
+            urlcn(urls.pop(), function (surl) { write_url(surl); doit(urls, method) })
+          if (method == '3')
+            urlcy(urls.pop(), function (surl) { write_url(surl); doit(urls, method) })
+        } else {
+          $("#sub").removeAttr("disabled");
+        }
+      }
+
+      function tcn(url, cb) {
+        $.get("http://tool.yijingying.com/dwz/t_cn.php?" + encodeURIComponent(url), function (res) {
+          cb(res);
+        })
+      }
+
+      function urlcn(url, cb) {
+        $.get("http://tool.yijingying.com/dwz/url_cn.php?" + encodeURIComponent(url), function (res) {
+          cb(res);
+        })
+      }
+
+      function urlcy(url, cb) {
+        $.get("http://tool.yijingying.com/dwz/url_cy.php?" + encodeURIComponent(url), function (res) {
+          cb(res);
+        })
+      }
+      function write_url(surl) {
+        $("#out_urls").append(surl + "\n")
+      }
+
+      function get_urls() {
+        return $("#int_urls").val().split('\n');
+      }
+    })
+  </script>
+
+  <footer class="text-muted bg-dark py-4 mt-3">
+    <div style="text-align:center">
+      <p>本站资源来源于网络，仅用于内部学习交流，禁止用于非法用途；请在下载后24小时之内删除，否则后果自负。请在 (https://foresee.gq/message/ )留言</p>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/horchen/cdn1/js/home/no.js"></script>
+    </div>
+  </footer>
+</body>
+
+</html>
