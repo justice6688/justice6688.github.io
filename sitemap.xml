@@ -270,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://foresee.gq/tags/git-push/</loc>
+    <loc>https://foresee.gq/tags/npm/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://foresee.gq/tags/npm/</loc>
+    <loc>https://foresee.gq/tags/git-push/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -321,6 +321,13 @@
 
   
   <url>
+    <loc>https://foresee.gq/categories/node/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://foresee.gq/categories/git/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -335,20 +342,6 @@
   </url>
   
   <url>
-    <loc>https://foresee.gq/categories/node/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://foresee.gq/categories/markdown/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://foresee.gq/categories/mysql/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -357,6 +350,13 @@
   
   <url>
     <loc>https://foresee.gq/categories/git/git-clone/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://foresee.gq/categories/markdown/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
