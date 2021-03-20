@@ -6,7 +6,7 @@
   <link href="https://foresee.gq/atom.xml" rel="self"/>
   
   <link href="https://foresee.gq/"/>
-  <updated>2021-03-19T04:38:20.437Z</updated>
+  <updated>2021-03-20T16:25:10.245Z</updated>
   <id>https://foresee.gq/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>小记</title>
+    <link href="https://foresee.gq/posts/ea22618.html"/>
+    <id>https://foresee.gq/posts/ea22618.html</id>
+    <published>2021-03-21T00:06:00.000Z</published>
+    <updated>2021-03-20T16:25:10.245Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+    
+    
+    <summary type="html">高中作文</summary>
+    
+    
+    
+    <category term="文章" scheme="https://foresee.gq/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="小记" scheme="https://foresee.gq/tags/%E5%B0%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>独立的html界面</title>
     <link href="https://foresee.gq/posts/6a09e784.html"/>
     <id>https://foresee.gq/posts/6a09e784.html</id>
-    <published>2021-03-19T04:38:20.437Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <published>2021-03-20T16:25:10.245Z</published>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<!-- <html>    <body>    <center><iframe src="https://dinoswords.gg/" frameBorder="0" width="1093.6px" scrolling="no" height="700px"></iframe></center>    </body></html> --><!DOCTYPE HTML><html lang="zh-CN"><head>  <meta charset="utf-8">  <link type='text/css' rel="stylesheet"    href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" /><body>  <main class="content">    <div class="container">        <div class="card-content">          <div class="note info">            操作介绍：<br>            开始游戏：首先点击屏幕 <br>            跳跃：注意是“点击屏幕” ！<br>            道具：跳跃后捡到的道具，使用下方对应26字母键盘键<br>            支持手机，电脑，等设备玩耍，点击屏幕开始和跳跃。          </div>          <hr>          <iframe width="100%" height="488px" src="https://dinoswords.gg/" frameborder="no" border="0" scrolling="no"            marginwidth="0" marginheight="0"></iframe>          <!-- <iframe width="100%" height="200px" src="https://api.dlizi.com:555/dinogame/index.html"  frameborder="no" border="0"  scrolling="no" marginwidth="0" marginheight="0" ></iframe> -->        </div>    </div>  </main>  <style>    .youpaiyunlogo {      height: 26px;      display: inline-block;      vertical-align: top;    }  </style>  <script>    POWERMODE.colorful = true; // make power mode colorful    POWERMODE.shake = false; // turn off shake    document.body.addEventListener('input', POWERMODE);  </script></body></html>]]></content>
     
@@ -38,7 +59,7 @@
     <link href="https://foresee.gq/posts/eadde361.html"/>
     <id>https://foresee.gq/posts/eadde361.html</id>
     <published>2021-03-07T11:01:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>开始—-运行—-以管理员输入cmd—-输入 <strong>netsh winsock reset</strong> 确认，<strong>重启</strong></p><p>命令提示符是在操作系统中，提示进行命令输入的一种工作提示符。在不同的操作系统环境下，命令提示符各不相同。</p><p>这个命令作用是重置 Winsock 目录。如果一台机器上的Winsock协议配置有问题的话将会导致网络连接等问题，就需要用netsh winsock reset命令来重置Winsock目录借以恢复网络。这个命令的好处是可以重新初始化网络环境，以解决由于软件冲突、病毒原因造成的参数错误问题。</p><h2 id="输入的影响"><a href="#输入的影响" class="headerlink" title="输入的影响:"></a>输入的影响:</h2><p>这个命令可以重新初始化网络环境，以解决由于软件冲突、病毒原因造成的参数错误问题。当执行完winsock的命令重启计算机后，需要重新配置IP。局域网的话需要DNS选择一下，另外因机而异可能会断网或网速变慢，这个就需要继续再进行解决了。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/img/post/ping.png"></p>]]></content>
     
@@ -108,7 +129,7 @@
     <link href="https://foresee.gq/posts/d87f7e0c.html"/>
     <id>https://foresee.gq/posts/d87f7e0c.html</id>
     <published>2021-03-03T23:13:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<h1 id="春秋"><a href="#春秋" class="headerlink" title="春秋"></a>春秋</h1><h2 id="作品简介"><a href="#作品简介" class="headerlink" title="作品简介"></a>作品简介</h2><p>据一些文学著作记述，至迟自西周起，就有太史记载国家大事。《春秋》是由鲁国史官记录大量当时该国诸侯、大夫、国人等失礼非礼之事；鲁国史官也会收集其他诸侯国公侯大夫等失礼非礼之事，会记录诸侯国公侯间大夫等间书信内容，比如晋叔向与郑国子产关于铸刑书的书信 [2]  ，其中记录了齐国史官因为保持真实记录而被杀掉的事件 [3]  等等。 </p><p>在每一季的开始，一般要写“春”到“冬”四季的季节。据说古时历法先有春秋，后分冬夏二时，因此把国史记载叫做《春秋》，这可能是“春秋”作为史书名的来由。现存《春秋》，从鲁隐公记述到鲁哀公，历十二代君主，计二百四十四年（依《公羊传》和《谷梁传》载至哀公十四年止，为二百四十二年，《左传》多二年），它基本上是鲁国史书的原文。</p><p>相传《春秋》之书出于孔子之手，旧时有“文王拘而演周易、仲尼厄而作春秋”之说。但后世亦有不同说法，清人袁谷芳《春秋书法论》说：《春秋》者，鲁史也。鲁史氏书之，孔子录而藏之，以传信于后世者也。石韫玉《独学庐初稿·春秋论》也说：《春秋》者，鲁史之旧文也。《春秋》共十二公之事，历二百四十年之久，秉笔而书者必更数十人。此数十人者，家自为师，人自为学，则其书法，岂能尽同？虽然春秋之作者有争议，但其经过孔子之手修而改之，则无大异。事实上，春秋作为一鲁国的史书，其作用早已超出史书范围，春秋用词遣句“字字针砭”成为独特的文风，被称为春秋笔法，为历代文代史家奉为经典。</p><p>《春秋》所记，是二百四十多年的春秋各国大事，现所存全文，不过一万六千多字，但据曹魏时的张晏和晚唐时人徐彦引《春秋说》，都说是一万八千字（张说见《史记·太史公自序·集解》引，徐说见《公羊传·昭公十二年疏》引），可见《春秋》原文，从三国以后脱露了一千多字。很多大事遗漏记。</p>]]></content>
     
@@ -155,7 +176,7 @@
     <link href="https://foresee.gq/posts/1d24269c.html"/>
     <id>https://foresee.gq/posts/1d24269c.html</id>
     <published>2021-02-28T00:08:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<h2 id="打开ipaddress-com"><a href="#打开ipaddress-com" class="headerlink" title="打开ipaddress.com"></a>打开ipaddress.com</h2><p>查询如下两个域名，并分别记录下其对应的ip：<br>1、github.com<br>2、github.global.ssl.fastly.net </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001057.png"></p><h2 id="更新host文件"><a href="#更新host文件" class="headerlink" title="更新host文件"></a>更新host文件</h2><p>打开：<strong>C:\Windows\System32\drivers\etc对hosts文件修改</strong><br>192.30.253.112 github.com<br>151.101.185.194 github.global.ssl.fastly.net<br>(github.global.ssl.fastly.net：这个会出现OpenSSL SSL_read: Connection was reset, errno 10054)</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001208.png"></p><h2 id="清理下DNS，再试一下。"><a href="#清理下DNS，再试一下。" class="headerlink" title="清理下DNS，再试一下。"></a>清理下DNS，再试一下。</h2><p>PS：我赶脚清理两次才舒服  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipconfig &#x2F;flushdns</span><br></pre></td></tr></table></figure><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210228001459.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"></span><br><span class="line">185.199.111.153               github.io</span><br><span class="line">185.199.108.154               github.githubassets.com</span><br><span class="line">199.232.68.133                camo.githubusercontent.com</span><br><span class="line">199.232.68.133                github.map.fastly.net</span><br><span class="line">199.232.69.194                github.global.ssl.fastly.net</span><br><span class="line">185.199.108.153               github.io</span><br><span class="line">140.82.113.4                  github.com</span><br><span class="line">140.82.114.5                  api.github.com</span><br><span class="line">199.232.68.133                raw.githubusercontent.com</span><br><span class="line">199.232.68.133                user-images.githubusercontent.com</span><br><span class="line">199.232.68.133                favicons.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars5.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars4.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars3.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars2.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars1.githubusercontent.com</span><br><span class="line">199.232.68.133                avatars0.githubusercontent.com</span><br><span class="line">140.82.114.9                  codeload.github.com</span><br><span class="line">52.217.83.84                  github-cloud.s3.amazonaws.com</span><br><span class="line">52.216.229.155                github-com.s3.amazonaws.com</span><br><span class="line">52.216.30.60                  github-production-release-asset-2e65be.s3.amazonaws.com</span><br><span class="line">52.216.17.0                   github-production-user-asset-6210df.s3.amazonaws.com</span><br><span class="line">52.216.236.43                 github-production-repository-file-5c1aeb.s3.amazonaws.com</span><br><span class="line"></span><br><span class="line"># GitHub End</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -177,7 +198,7 @@
     <link href="https://foresee.gq/posts/dfcda24f.html"/>
     <id>https://foresee.gq/posts/dfcda24f.html</id>
     <published>2021-02-27T23:36:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<h1 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a>git push</h1><p>git push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿。</p><blockquote><p>git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</p></blockquote><p>注意：这里的:前后是必须没有空格的。</p><p><strong>注意</strong>，分支推送顺序的写法是&lt;来源地&gt;:&lt;目的地&gt;，所以 <strong>git pull</strong> 是&lt;远程分支&gt;:&lt;本地分支&gt;，而 <strong>git push</strong> 是&lt;本地分支&gt;:&lt;远程分支&gt;。</p><p>如果省略远程分支名，则表示将本地分支推送与之存在”追踪关系”的远程分支（通常两者同名），如果该远程分支不存在，则会被新建。</p><h2 id="git-push-origin-master"><a href="#git-push-origin-master" class="headerlink" title="git push origin master"></a>git push origin master</h2><p>上面命令表示，将本地的master分支推送到origin主机的master分支。如果后者不存在，则会被新建。</p><p>如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git push origin :master</span><br><span class="line"># 等同于</span><br><span class="line">git push origin --delete master</span><br></pre></td></tr></table></figure><p>上面命令表示删除origin主机的master分支。</p><p>如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。</p><h2 id="git-push-origin"><a href="#git-push-origin" class="headerlink" title="git push origin"></a>git push origin</h2><p>上面命令表示，将当前分支推送到origin主机的对应分支。 </p><p>如果当前分支只有一个追踪分支，那么主机名都可以省略。 </p><h2 id="git-push-1"><a href="#git-push-1" class="headerlink" title="git push"></a>git push</h2><p>如果当前分支与多个主机存在追踪关系，那么这个时候-u选项会指定一个默认主机，这样后面就可以不加任何参数使用git push。</p><h2 id="git-push-u-origin-master"><a href="#git-push-u-origin-master" class="headerlink" title="git push -u origin master"></a>git push -u origin master</h2><p>上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用 <strong>git push</strong> 了。</p><p><strong>不带任何参数的git push，默认只推送当前分支</strong>，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。</p>]]></content>
     
@@ -301,7 +322,7 @@
     <link href="https://foresee.gq/posts/82f55462.html"/>
     <id>https://foresee.gq/posts/82f55462.html</id>
     <published>2021-02-27T17:08:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<p>今天在做git push时出现了如下错误：</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227171054.png"></p><pre><code>! [rejected] master -&gt; master (fetch first)</code></pre><h2 id="分析原因"><a href="#分析原因" class="headerlink" title="分析原因:"></a>分析原因:</h2><p>基本上可以确定是因为github上的远程库与本地库版本不一致（我对github上的文件做了编辑操作，且未更新到本地，当然也可能还有其他原因…），通过一番研究，找到了两种解决方案：</p><h2 id="温柔型方案："><a href="#温柔型方案：" class="headerlink" title="温柔型方案："></a>温柔型方案：</h2><p>通过 <code>git pull</code> 先将本地库更新到与远程库一致的版本，但要注意本地库后来做的修改可能被覆盖，最好使用git fetch(不会自动合并)，查看更新情况再有选择合并，或者先将本地库修改过的文件备份，git pull后再重新修改；  </p><p>再运行git push即可成功。</p><h2 id="暴力型方案："><a href="#暴力型方案：" class="headerlink" title="暴力型方案："></a>暴力型方案：</h2><p>git提供了一种强制上传的方式：<code>git push -f</code> ，它会忽略版本不一致等问题，强制将本地库上传的远程库，但是一定要谨慎使用，因为-f会用本地库覆盖掉远程库，如果远程库上有重要更新，或者有其他同伴做的修改，也都会被覆盖，所以一定要在确定无严重后果的前提下使用此操作。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227171209.png"></p>]]></content>
     
@@ -328,7 +349,7 @@
     <link href="https://foresee.gq/posts/714007d.html"/>
     <id>https://foresee.gq/posts/714007d.html</id>
     <published>2021-02-27T15:49:00.000Z</published>
-    <updated>2021-03-19T04:38:20.437Z</updated>
+    <updated>2021-03-20T16:25:10.245Z</updated>
     
     <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>今天在使用git向github远程仓库push自己的代码时  </p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227155148.png">  </p><p>这边我发现我的网络是没有问题，且github也能正常访问。</p><p>网上解释是因为自己的电脑是使用了代理导致的,是继续顺藤摸瓜，找到了Internet与网络的设置。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227155453.png"></p><p>果然，上图设置中有勾选了代理服务器（图片中是我重新设置过后的，不要打勾）。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>根据上面的原因分析，那么解决方式就很简单了：取消勾选代理服务器，使用自动检测设置。</p><p>设置完成，再次通过git来push代码。</p><p><img src= "/myresource/myimg/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/horchen/image-cdn/myblog/posts/20210227162000.png"></p><p>ok。问题解决！</p>]]></content>
     
@@ -461,30 +482,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;IDEA中配置连接MySql报错&quot;&gt;&lt;a href=&quot;#IDEA中配置连接MySql报错&quot; class=&quot;headerlink&quot; title=&quot;IDEA中配置连接MySql报错&quot;&gt;&lt;/a&gt;IDEA中配置连接MySql报错&lt;/h1&gt;&lt;p&gt;在Intellij IDEA</summary>
-      
-    
-    
-    
-    <category term="mysql" scheme="https://foresee.gq/categories/mysql/"/>
-    
-    
-    <category term="问题" scheme="https://foresee.gq/tags/%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>windows版mysql5.1移动data文件</title>
-    <link href="https://foresee.gq/posts/96d57cb4.html"/>
-    <id>https://foresee.gq/posts/96d57cb4.html</id>
-    <published>2021-02-06T15:56:05.000Z</published>
-    <updated>2021-02-06T15:56:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="移动"><a href="#移动" class="headerlink" title="移动"></a>移动</h1><p> 从C:\ProgramData\MySQL\MySQL Server 5.1\Data移动到E:\MySQL\MySQL Server 5.1\data目录下  </p><h2 id="mysql-data目录"><a href="#mysql-data目录" class="headerlink" title="mysql data目录"></a>mysql data目录</h2><p> 查看mysql文件目录my.ini文件，可以找到类似于<strong>datadir</strong>=”C:/ProgramData/MySQL/MySQL Server 5.1/Data”的字段<br> <strong>注意：ProgramData文件夹是隐藏的！！！</strong></p><p> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/13fa72a337e699b62649609204e3e81a.png"></p><h2 id="1-停止mysql"><a href="#1-停止mysql" class="headerlink" title="1.停止mysql"></a>1.停止mysql</h2><p> 在命令窗口中输入并运行：net stop mysql</p><p> Windows net start mysql 启动MySQL服务报错<strong>发生系统错误 5</strong> 解决方法</p><p> <strong><code>cmd</code>下运行<code>net start mysql</code>启动<code>MySQL</code>服务：<code>提示发生系统错误 5。拒绝访问。</code></strong><br> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/e673460364826b1e450d0c807eab9b65.png"></p><h3 id="cmd管理员模式运行可以启动MySQL服务"><a href="#cmd管理员模式运行可以启动MySQL服务" class="headerlink" title="cmd管理员模式运行可以启动MySQL服务"></a><strong><code>cmd</code>管理员模式运行可以启动<code>MySQL</code>服务</strong></h3><p> 目录 C:\Windows\System32 -&gt; 找到 cmd.exe<br> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/29bd9a04cd0403c81ae7511287c8907c.png"></p><p> 右击属性 -&gt; 以管理员身份运行    </p><p> <img src= "/myresource/myimg/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/322a61690195e0a465af9daab6c71ac1.png">    </p><h2 id="2-复制"><a href="#2-复制" class="headerlink" title="2.复制"></a>2.复制</h2><p> 把” C:/ProgramData/MySQL/MySQL Server 5.1/Data/“里的Data文件夹剪切到目的地。<br> 我把它放到了”D:\PHP\MySQL\MySQL Server 5.1”目录下（跟mysql放到了一起），并且把目录”C:\Documents and Settings\All Users\Application Data\MySQL\MySQL Server 5.1\”删除掉。</p><h2 id="3-修改my-ini文件"><a href="#3-修改my-ini文件" class="headerlink" title="3.修改my.ini文件"></a>3.修改my.ini文件</h2><p> 把datadir改成  datadir=”E:\MySQL\MySQL Server 5.1\data”</p><h2 id="4-启动mysql"><a href="#4-启动mysql" class="headerlink" title="4.启动mysql"></a>4.启动mysql</h2><p> 在命令窗口中输入并运行：net start mysql  即可；</p><h2 id="5-修改完毕"><a href="#5-修改完毕" class="headerlink" title="5.修改完毕"></a>5.修改完毕</h2><p> 以后就可以把相应的数据库附加对象拷贝到里面来。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;移动&quot;&gt;&lt;a href=&quot;#移动&quot; class=&quot;headerlink&quot; title=&quot;移动&quot;&gt;&lt;/a&gt;移动&lt;/h1&gt;&lt;p&gt; 从C:\ProgramData\MySQL\MySQL Server 5.1\Data移动到E:\MySQL\MySQL Server 5</summary>
       
     
     

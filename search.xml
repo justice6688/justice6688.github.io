@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>小记</title>
+      <link href="posts/ea22618.html"/>
+      <url>posts/ea22618.html</url>
+      
+        <content type="html"><![CDATA[<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>独立的html界面</title>
       <link href="posts/6a09e784.html"/>
       <url>posts/6a09e784.html</url>
