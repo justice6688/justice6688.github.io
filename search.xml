@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>独立的html界面</title>
-      <link href="posts/6a09e784.html"/>
-      <url>posts/6a09e784.html</url>
-      
-        <content type="html"><![CDATA[<!-- <html>    <body>    <center><iframe src="https://dinoswords.gg/" frameBorder="0" width="1093.6px" scrolling="no" height="700px"></iframe></center>    </body></html> --><!DOCTYPE HTML><html lang="zh-CN"><head>  <meta charset="utf-8">  <link type='text/css' rel="stylesheet"    href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" /><body>  <main class="content">    <div class="container">        <div class="card-content">          <div class="note info">            操作介绍：<br>            开始游戏：首先点击屏幕 <br>            跳跃：注意是“点击屏幕” ！<br>            道具：跳跃后捡到的道具，使用下方对应26字母键盘键<br>            支持手机，电脑，等设备玩耍，点击屏幕开始和跳跃。          </div>          <hr>          <iframe width="100%" height="488px" src="https://dinoswords.gg/" frameborder="no" border="0" scrolling="no"            marginwidth="0" marginheight="0"></iframe>          <!-- <iframe width="100%" height="200px" src="https://api.dlizi.com:555/dinogame/index.html"  frameborder="no" border="0"  scrolling="no" marginwidth="0" marginheight="0" ></iframe> -->        </div>    </div>  </main>  <style>    .youpaiyunlogo {      height: 26px;      display: inline-block;      vertical-align: top;    }  </style>  <script>    POWERMODE.colorful = true; // make power mode colorful    POWERMODE.shake = false; // turn off shake    document.body.addEventListener('input', POWERMODE);  </script></body></html>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2字节的UTF-8序列的字节2无效 解决方案</title>
       <link href="posts/101e056.html"/>
       <url>posts/101e056.html</url>
@@ -48,6 +35,19 @@
           <category> springmvc </category>
           
       </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>独立的html界面</title>
+      <link href="posts/6a09e784.html"/>
+      <url>posts/6a09e784.html</url>
+      
+        <content type="html"><![CDATA[<!-- <html>    <body>    <center><iframe src="https://dinoswords.gg/" frameBorder="0" width="1093.6px" scrolling="no" height="700px"></iframe></center>    </body></html> --><!DOCTYPE HTML><html lang="zh-CN"><head>  <meta charset="utf-8">  <link type='text/css' rel="stylesheet"    href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" /><body>  <main class="content">    <div class="container">        <div class="card-content">          <div class="note info">            操作介绍：<br>            开始游戏：首先点击屏幕 <br>            跳跃：注意是“点击屏幕” ！<br>            道具：跳跃后捡到的道具，使用下方对应26字母键盘键<br>            支持手机，电脑，等设备玩耍，点击屏幕开始和跳跃。          </div>          <hr>          <iframe width="100%" height="488px" src="https://dinoswords.gg/" frameborder="no" border="0" scrolling="no"            marginwidth="0" marginheight="0"></iframe>          <!-- <iframe width="100%" height="200px" src="https://api.dlizi.com:555/dinogame/index.html"  frameborder="no" border="0"  scrolling="no" marginwidth="0" marginheight="0" ></iframe> -->        </div>    </div>  </main>  <style>    .youpaiyunlogo {      height: 26px;      display: inline-block;      vertical-align: top;    }  </style>  <script>    POWERMODE.colorful = true; // make power mode colorful    POWERMODE.shake = false; // turn off shake    document.body.addEventListener('input', POWERMODE);  </script></body></html>]]></content>
+      
       
       
     </entry>
@@ -567,6 +567,23 @@
     </entry>
     
     
+    
+    <entry>
+      <title>测试</title>
+      <link href="posts/9daba997.html"/>
+      <url>posts/9daba997.html</url>
+      
+        <content type="html"><![CDATA[<h1>测试123</h1>每逢农历正月十五，<p>传统民间都要挂起彩灯，燃放焰火，</p><p>后来有好事者把谜语写在纸条上，</p><p>贴在五光十色的彩灯上供人猜。</p><p>可元宵节赏月也是闲情雅致的大事！！！</p><p>那你对元宵节最佳赏月时间又了解多少呢？</p><p>元宵节最佳赏月时间：日落一小时后和子夜前后</p><p>元宵节当天日落一个小时后，一轮圆月就会悬挂在东方低空，皎皎清辉洒满天。此时，月亮的地平高度角在二三十度左右，看起来感觉非常大，非常利于观赏和拍照。随着时间的推移，月亮也越来越亮。临近子夜前后，圆月升至天顶附近，天空中就会上演“月上中天顶空照”美景。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客测试 </tag>
+            
+        </tags>
+      
+    </entry>
     
     
   
