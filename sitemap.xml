@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://foresee.gq/myresource/mycss/mycss.css</loc>
-    
-    <lastmod>2021-03-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://foresee.gq/baidu_verify_code-Wqfj6ThGiK.html</loc>
     
     <lastmod>2021-03-31</lastmod>
@@ -312,20 +305,6 @@
   </url>
   
   <url>
-    <loc>https://foresee.gq/tags/git/</loc>
-    <lastmod>2021-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://foresee.gq/tags/%E5%B0%8F%E8%AE%B0/</loc>
-    <lastmod>2021-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://foresee.gq/tags/%E7%AB%AF%E5%8F%A3/</loc>
     <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
@@ -334,6 +313,20 @@
   
   <url>
     <loc>https://foresee.gq/tags/git%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2021-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://foresee.gq/tags/git/</loc>
+    <lastmod>2021-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://foresee.gq/tags/%E5%B0%8F%E8%AE%B0/</loc>
     <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -405,14 +398,14 @@
   </url>
   
   <url>
-    <loc>https://foresee.gq/categories/%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://foresee.gq/categories/git/git-config/</loc>
     <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://foresee.gq/categories/git/git-config/</loc>
+    <loc>https://foresee.gq/categories/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
