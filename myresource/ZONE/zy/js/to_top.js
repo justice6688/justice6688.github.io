@@ -1,0 +1,1 @@
+"use strict";function scrollFunction(){console.log(121),30<document.body.scrollTop||20<document.documentElement.scrollTop?document.getElementById("btnTop").style.display="block":document.getElementById("btnTop").style.display="none"}function returnTop(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()};
